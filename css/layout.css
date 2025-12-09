@@ -1,0 +1,116 @@
+/* 
+    
+    Author: Heaven Frazier
+    Date: 3/28/2024
+    Time: 1:45
+
+    Filename: layout.css
+    
+*/
+
+/* HTML Styles */
+
+html {
+    min-height: 100%;
+}
+
+/* header stylesheet */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px;
+    background-color: black;
+    color: red;
+}
+
+header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+}
+
+#headerLink > a:link, #headerLink > a:visited {
+    text-decoration: none;
+}
+
+/* Body Styles */
+
+body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation Styles */
+
+nav {
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    width: 15%;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px 50px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: gray;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer > a:link, footer > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: gray;
+    text-decoration: underline;
+}

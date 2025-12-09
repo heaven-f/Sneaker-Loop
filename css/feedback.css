@@ -1,0 +1,110 @@
+/* 
+    
+    Author: Heaven Frazier
+    Date: 3/28/2024
+    Time: 1:50
+
+    Filename: feedback.css
+    
+*/
+
+/* Body Styles */
+
+#main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    display: flexbox;
+    flex: auto;
+    margin: 0px 50px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+p:last-of-type {
+    font-size: 18px;
+    color: red;
+    font-style: italic;
+}
+
+/* Legend Styles */
+
+legend {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+
+#feedbackForm {
+    display: flex;
+    flex-flow: row wrap; /* one-column layout */
+    margin: 0px 20px;
+}
+
+#feedbackForm > fieldset {
+    background-color: lightgray;
+    border-radius: 20px;
+    flex: 1 1 200px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.formRow {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px;
+    font-size: 18px;
+    flex: 1 1 20px;
+}
+
+.formRow > label {
+    margin-bottom: 10px;
+}
+
+#feedOption, #frequency {
+    width: fit-content;
+}
+
+/* Text Area Styles */
+
+.formRow textarea {
+    height: 100px;
+    max-height: 100%;
+}
+
+/* Button Styles */
+
+#buttons {
+    text-align: center;
+    width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Validation Styles */
+
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(124, 209, 124);
+}
+
+input#mail:focus:valid, 
+input#feedOption:focus:valid, 
+textarea#feedback:focus:valid {
+    background-color: rgb(124, 209, 124);
+}
+
+input#mail:focus:invalid, 
+select#feedOption:focus:invalid, 
+textarea#feedback:focus:invalid,
+#phone:focus:invalid {
+    background-color: hsl(0, 51%, 59%);
+}

@@ -1,0 +1,46 @@
+/* 
+    
+    Author: Heaven Frazier
+    Date: 3/28/2024
+    Time: 1:49
+
+    Filename: releases.css
+    
+*/
+
+/* Main Styles */
+
+#main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header Styles */
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Table Styles */
+
+table.shoeReleases {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table.shoeReleases td {
+    border: 3px solid black;
+}
+
+table.shoeReleases td img {
+    display: block;
+    margin: auto;
+}
+
+table.shoeReleases td cite {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
